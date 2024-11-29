@@ -1,4 +1,20 @@
-# Advent of Code Swift Starter Project
+# Advent of Code Swift Template
+
+This is a fork of https://github.com/swiftlang/swift-aoc-starter-example.
+
+I have tweaked it to how I prefer. I recommend using the original instead of mine as it is customized to my own preferences.
+
+But feel free to use it if you want.
+
+## Setup
+
+1. Create a private submodule in `Sources/Data` to stick to the license that states the input files are not to be publicly shared.
+
+2. This project has a pipeline configured. To have it access the submodule, create an access token that has read access to it, then add it to this repo as a secret named `CI_TOKEN`.
+
+3. Read and follow the below "Original readme contents" for additional instructions.
+
+# Original readme contents
 
 [![Language](https://img.shields.io/badge/language-Swift-red.svg)](https://swift.org)
 
